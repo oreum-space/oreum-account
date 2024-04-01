@@ -13,7 +13,7 @@ export default defineConfig({
       cert: fs.readFileSync('./cert/oreum.local.crt')
     },
     host: true,
-    port: 443
+    port: 8443
   },
   resolve: {
     alias: {

@@ -1,6 +1,8 @@
 <template>
   <main>
-    <o-button>Empty</o-button>
+    <o-card>
+      <o-button>Hello world!</o-button>
+    </o-card>
   </main>
 </template>
 
@@ -8,7 +10,7 @@
   setup
   lang="ts"
 >
-import { OButton } from 'oreum-ui'
+import { OButton, OCard } from 'oreum-ui'
 </script>
 
 <style scoped>

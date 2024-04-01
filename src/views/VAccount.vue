@@ -1,6 +1,6 @@
 <template>
   <main>
-    <o-button>Empty</o-button>
+    <o-button>Hello message!</o-button>
   </main>
 </template>
 

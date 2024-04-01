@@ -1,0 +1,13 @@
+html::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-image: url("pattern.png");
+  background-size: 480px;
+  transform: rotate(-18.43deg);
+  opacity: 0.05;
+}
